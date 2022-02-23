@@ -163,6 +163,9 @@ RUN cd /videos && curl -L http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4 --ou
 ADD static /www/static
 
 EXPOSE 1935
+EXPOSE 1900
+EXPOSE 8000
+EXPOSE 8080
 EXPOSE 80
 EXPOSE 443
 
